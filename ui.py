@@ -901,7 +901,7 @@ elif page == "Predict Employee Risk":
         <div class='metric-card'>
             <h2 class='{risk_class}'>{risk_level}</h2>
             <h1 class='{risk_class}'>{risk_score:.2f}%</h1>
-            <p>Attrition Risk Percentiles</p>
+            <p>Attrition Risk Probability</p>
         </div>
         """,
         unsafe_allow_html=True
